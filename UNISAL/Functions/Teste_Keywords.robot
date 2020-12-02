@@ -14,14 +14,9 @@ Connect to Git Repository and log issues
     ${title}=       Get Value From Json      ${resp.json()}        $..title     
     Log to Console     ${title}
 
-Create folder with txt in it
+Create folder with txt
     Create File         D:/robot-ibm/PROVA_ARQUIVOS/teste.txt            Hello, world!
-
-List all files on dir
     List Directory      D:/robot-ibm/PROVA_ARQUIVOS
-    
-
-Exclude and show results     
     Remove File     D:/robot-ibm/PROVA_ARQUIVOS/teste.txt
 
 Connect to database prova_robotframework and execute script

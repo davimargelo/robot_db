@@ -6,18 +6,12 @@ Test Teardown
 
 *** Test Cases ***
 
-Connect to GitHub and log Issues with label=question and state=open
+1 Connect to GitHub and log Issues with label=question and state=open
     Connect to Git Repository and log issues
 
-Create folder with txt on it
-    Create folder with txt in it
+2 Create folder with txt and log it then delete it
+    Create folder with txt
 
-List directory
-    List all files on dir
-
-Exclude archive and log results
-    Exclude and show results
-
-Connect to database and log users from table 'ACCOUNT'
+2 Connect to database and log users from table 'ACCOUNT'
     Connect to database prova_robotframework and execute script
 
