@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:12.4
+    environment:
+      POSTGRES_DB: prova_robotframework
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5500:5432
