@@ -15,9 +15,9 @@ Connect to Git Repository and log issues
     Log to Console     ${title}
 
 Create folder with txt
-    Create File         D:/robot-ibm/PROVA_ARQUIVOS/teste.txt            Hello, world!
-    List Directory      D:/robot-ibm/PROVA_ARQUIVOS
-    Remove File     D:/robot-ibm/PROVA_ARQUIVOS/teste.txt
+    Create File         D:/robot/PROVA_ARQUIVOS/teste.txt            Hello, world!
+    List Directory      D:/robot/PROVA_ARQUIVOS
+    Remove File     D:/robot/PROVA_ARQUIVOS/teste.txt
 
 Connect to database prova_robotframework and execute script
     Connect To Database	    psycopg2 	   prova_robotframework        postgres        postgres        localhost    5500
